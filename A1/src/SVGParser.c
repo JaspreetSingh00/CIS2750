@@ -52,15 +52,6 @@ void deleteAttribute(void* data)
 // char* attributeToString(void* data)
 // {
 //     Attribute* attributeToString = (Attribute*) data;
-//     char* buffer = calloc(50, sizeof(char));
-//     printf("Attributes: \n");
-//     strcpy(buffer, "    name: ");
-//     strcat(buffer, attributeToString->name);
-//     strcat(buffer, "\n");
-//     strcat(buffer, "    value: ");
-//     strcat(buffer, attributeToString->value);
-    
-//     return buffer;
 // }
 int compareAttributes(const void *first, const void *second)
 {
