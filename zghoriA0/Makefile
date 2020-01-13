@@ -11,7 +11,7 @@ ifeq ($(UNAME), Darwin)
 endif
 
 
-all: ./bin/liblist.so
+liblist: ./bin/liblist.so
 			
 ./bin/liblist.so: ./bin/LinkedListAPI.o
 	$(CC) $(CFLAGS) -shared ./bin/LinkedListAPI.o -o ./bin/liblist.so
